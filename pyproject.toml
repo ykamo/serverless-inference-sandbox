@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "serverless-inference-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Yoshikazu Kamoshida <yoshikazu.kamoshida@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sagemaker = "^2.72.3"
+botocore = "^1.23.35"
+boto3 = "^1.20.35"
+jupyter = "^1.0.0"
+opencv-python = "^4.5.5"
+tensorflow-hub = "^0.12.0"
+multi-model-server = "^1.1.8"
+fastapi = "^0.72.0"
+uvicorn = "^0.17.0"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
